@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulir.css">
+    <style>
+        body {
+            background-image: url(background.jpg);
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">Register</a>
+        <a href="#">Contac Us</a>
+        <a href="#" style="float:right">Login</a>
+    </div>
+    <div class="header">
+        <h1>Gelar Karya Mahasiswa</h1>
+        <p>Gelar Karya Mahasiswa prodi Sistem Informasi adalah suatu ajang kompetisi mahasiswa dari hasil
+            luaran mata kuliah di prodi Sistem Informasi. Karya mahasiswa diharapkan dapat terus mendorong inovasi
+            dengan atmosfer kompetisi yang dibangun melaui Gelar Karya Mahasiswa Sistem Informasi (GKM SI)</p>
+    </div>
+    <div class="middlecolumn">
+    <div class="input">
+        <h1>FORMULIR PENDAFTARAN GELAR KARYA MAHASISWA (GKM) AMIKOM PRODI SISTEM INFORMASI 2022</h1>
+        <p>Gelar Karya Mahasiswa prodi Sitem Informasi adalah suatu ajang kompetisi dari hasil Iuran mata kuliah
+        di prodi Sistem informasi. Karya proyek-proyek mata kuliah di program studi Sistem Informasi dapat
+        didaftarkan sebagai karya inovasi mahasiswa yang dapat didaftarkan pada GKM SI.</p>
+        <div>
+            <form action="/action_page.php" method="POST">
+               <label for="email">Email ketua Tim</label>
+               <input type="email" name="email" placeholder="...@gmail.com">
+               <label for="np">Nama Produk</label>
+               <textarea id="np" name="np"></textarea>
+           
+               <label for="ketua">Nama Ketua Tim</label>
+               <input type="text" id="ketua" name="ketua">
+           
+               <label for="anggota">Nama Anggota Tim</label>
+               <textarea id="anggota" name="anggota"></textarea>
+           
+               <label for="wa">Nomor WA Ketua Tim</label>
+               <input type="number" name="wa" id="wa">
+           
+               <label for="dosen">Nama Dosen Pembimbing (*Jika ada)</label>
+               <input type="text" id="dosen" name="dosen">
+           
+               <label for="kelas">Kelas</label>
+               <select name="kelas">
+                   <option value="pilih" selected>-Pilih Kelas-</option>
+                   <option value="SI01">SI 01</option>
+                   <option value="SI02">SI 02</option>
+                   <option value="SI03">SI 03</option>
+                   <option value="SI04">SI 04</option>
+                   <option value="SI05">SI 05</option>
+                   <option value="SI06">SI 06</option>
+               </select>
+               <label for="lomba">Kategori Lomba</label><br>
+               <input type="radio" name="lomba" value="mid"/>Media Interaktid Digital & AR/VR<br>
+               <input type="radio" name="lomba" value="mmd"/>Multimedia & Short Movie<br>
+               <input type="radio" name="lomba" value="rpl"/>RPL & Sistem Informasi<br>
+               <input type="radio" name="lomba" value="foto"/>Fotografi<br>
+               <input type="radio" name="lomba" value="inv"/>Inovasi Digital Fintech<br>
+               <input type="radio" name="lomba" value="ui"/>UI/UX Design<br>
+               <input type="radio" name="lomba" value="ai"/>Artificial Intelligence & IoT<br>
+               <input type="radio" name="lomba" value="atk"/>Artikel Karya Ilmiah ICT<br>
+               <input type="radio" name="lomba" value="kwu"/>Kewirausahaan dan Startup<br>
+
+               <label for="foto">Upload Dokumen Pendaftaran</label>
+               <input type="file" id="foto" name="foto" accept="image/*">
+
+               <label for="check">Checklist Dokumen</label><br>
+               <input type="checkbox" name="check" id="check"/>Dokumen Pendaftaran<br>
+               <input type="checkbox" name="check" id="check"/>No WA Ketua<br>
+               <input type="checkbox" name="check" id="check"/>Nama Pembimbing<br>
+               <input type="checkbox" name="check" id="check"/>Memilih Kategori<br>
+               <br>
+               <label for="tgl">Dengan ini saya mendaftar GKM pada tanggal</label>
+               <input type="date" id="tgl" name="tanggal"/>
+
+               <input type="submit" value="kirim"/>
+               <input type="submit" value="reset"/>
+            </form>
+           </div>
+    </div>
+    </div>
+           <div class="footer">
+            <table border="1" cellspacing="10" bgcolor="aqua">
+                <tr>
+                    <td align="center">Nama</td>
+                    <td align="center">Dimas Bayu Kurniawan</td>
+                </tr>
+                <tr>
+                    <td align="center">NIM</td>
+                    <td align="center">21.12.1909</td>
+                </tr>
+                <tr>
+                    <td align="center">Kelas</td>
+                    <td align="center">SI 01</td>
+                </tr>
+                <tr>
+                    <td align="center">Alamat</td>
+                    <td align="center">Klaten</td>
+                </tr>
+            </table>
+        </div>
+    <p>24/05/2022</p>
+</body>
+</html>
